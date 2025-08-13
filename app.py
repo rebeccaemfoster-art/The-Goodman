@@ -169,8 +169,8 @@ if ask:
     else:
       st.warning("No question found. Go back and ask something.")
     for message in st.session_state.messages:
-      st.write(f'user: {message['user']}')
-      st.write(f'AI: {message['AI']}')
+      st.write(f"user: {message['user']}")
+      st.write(f"AI: {message['AI']}")
 
 
 
